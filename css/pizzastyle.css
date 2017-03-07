@@ -1,0 +1,71 @@
+header {
+	min-height: auto;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	background-position: center;
+	background-image:url(../img/pizza.jpg);
+}
+
+.header-content{
+	padding:160px 15px;
+	position:relative;
+}
+
+nav{
+	background-color: #e5751b;
+	font-family: san-serif;
+	color:#fff;
+}
+
+h1 {
+	font-weight:500;
+	font-size: 70;
+}
+
+body {
+	background-color: #fff;
+}
+
+.box {
+	background-color: #e5751b;
+	border-radius: 10px;
+}
+
+.inputs{
+	padding: 5px 20px 10px 20px;
+	background-color: #ffe8db;
+	color: #333;
+}
+
+a {
+	color: #333;
+}
+
+a:hover{
+	color:#ccc;
+	text-decoration: none;
+}
+
+h3{
+	padding-top:10px;
+	background-color: #e5751b;
+	font-family: san-serif;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.btn-danger {
+	background-color: #ab131b;
+	border-color: #df1e39;
+}
+
+.btn-danger:hover, .btn-danger::selection, .btn-danger:focus, .btn-danger:active {
+	background-color: #df1e39;
+	border-color: #ab131b;
+}
+
+.inputs {
+	border-radius: 0px 0px 10px 10px;
+}

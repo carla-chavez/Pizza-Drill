@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizza Order Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	<link rel="stylesheet" href="./css/pizzastyle.css">
+</head>
+<body>
+
+<header>
+	<div class="container text-center header-content">
+</header>
+<div>
+		<nav class="container-fluid text-center">
+			<h1> Papa's Pizza</h1>
+		</nav>
+</div>
+
+<br>
+
+<form class="orderMenu">
+	<div class="container">
+		<div class="row row-eq-height-md">
+			<div class="col-lg-4 col-md-6 section">
+				<div class="size box">
+					<h3 class="text-center">Size</h3>
+						<div class="inputs">
+							<input class="size" type="radio" name="size" value="Personal">
+								<a href="#" data-toggle="tooltip" title="$6">Personal</a></input><br>
+							<input class="size" type="radio" name="size" value="Medium" checked>
+								<a href="#" data-toggle="tooltip" title="$10">Medium</a></input><br>
+							<input class="size" type="radio" name="size" value="Large">
+								<a href="#" data-toggle="tooltip" title="$14">Large</a></input><br>
+							<input class="size" type="radio" name="size" value="Extra Large">
+								<a href="#" data-toggle="tooltip" title="$16">Extra Large</a></input><br>
+						</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 section">
+				<div class="meat box">
+					<h3 class="text-center">Meat</h3>
+						<div class="inputs">
+							<input class="meat" type="checkbox" name="meat" value="Pepperoni">
+								<a href="#" data-toggle="tooltip" title="$1/each after first meat">Pepperoni</a></input><br>
+							<input class="meat" type="checkbox" name="meat" value="Sausage">
+								<a href="#" data-toggle="tooltip" title="$1/each after first meat">Sausage</a></input><br>
+							<input class="meat" type="checkbox" name="meat" value="Canadian Bacon">
+								<a href="#" data-toggle="tooltip" title="$1/each after first meat">Canadian Bacon</a></input><br>
+							<input class="meat" type="checkbox" name="meat" value="Ground Beef">
+								<a href="#" data-toggle="tooltip" title="$1/each after first meat">Ground Beef</a></input><br>
+							<input class="meat" type="checkbox" name="meat" value="Anchovy">
+								<a href="#" data-toggle="tooltip" title="$1/each after first meat">Anchovy</a></input><br>
+							<input class="meat" type="checkbox" name="meat" value="Chicken">
+								<a href="#" data-toggle="tooltip" title="$1/each after first meat">Chicken</a></input><br>
+						</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg-4 col-md-6 section">
+				<div class="cheese box">
+					<h3 class="text-center">Cheese</h3>
+						<div class="inputs">
+							<input class="cheese" type="radio" name="cheese" value="Regular" checked>Regular</input><br>
+							<input class="cheese" type="radio" name="cheese" value="No Cheese">No Cheese</input><br>
+							<input class="cheese" type="radio" name="cheese" value="Extra Cheese">
+								<a href="#" data-toggle="tooltip" title="+$3">Extra Cheese</a></input><br>
+						</div>
+				</div>
+			</div>
+		</div>
+<br>
+		<div class="row row-eq-height-md">
+			<div class="col-lg-4 col-md-6 section">
+				<div class="crust box">
+					<h3 class="text-center">Crust</h3>
+						<div class="inputs">
+							<input class="crust" type="radio" name="crust" checked value="Plain" >Plain Crust</input><br>
+							<input class="crust" type="radio" name="crust" value="Garlic Butter">Garlic Butter Crusst</input><br>
+							<input class="crust" type="radio" name="crust" value="Cheese Stuffed" >
+								<a href="#" data-toggle="tooltip" title="+$3">Cheese Stuffed Crust</a></input><br>
+							<input class="crust" type="radio" name="crust" value="Spicy" >Spicy Crust</input><br>
+							<input class="crust" type="radio" name="crust" value="House Special" >House Special Crust</input><br>
+						</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 section">
+				<div class="sauce box">
+					<h3 class="text-center">Sauce</h3>
+						<div class="inputs">
+							<input class="sauce" type="radio" name="sauce" value="Marinara Sauce" checked>Marinara Sauce</input><br>
+							<input class="sauce" type="radio" name="sauce" value="White Sauce">While Sauce</input><br>
+							<input class="sauce" type="radio" name="sauce" value="BBQ Sauce">BBQ Sauce</input><br>
+							<input class="sauce" type="radio" name="sauce" value="No Sauce">No Sauce</input><br>
+						</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 section">
+				<div class="veggies box">
+					<h3 class="text-center">Vegetables</h3>
+						<div class="inputs">
+							<input class="veggies" type="checkbox" name="veggies" value="Tomatoes">
+								<a href="#" data-toggle="tooltip" title="$1/each after first vegetable">Tomatoes</a></input><br>
+							<input class="veggies" type="checkbox" name="veggies" value="Onions" >
+								<a href="#" data-toggle="tooltip" title="$1/each after first vegetable">Onions</a></input><br>
+							<input class="veggies" type="checkbox" name="veggies" value="Olives" >
+								<a href="#" data-toggle="tooltip" title="$1/each after first vegetable">Olives</a></input><br>
+							<input class="veggies" type="checkbox" name="veggies" value="Green Peppers">
+								<a href="#" data-toggle="tooltip" title="$1/each after first vegetable">Green Peppers</a></input><br>
+							<input class="veggies" type="checkbox" name="veggies" value="Mushrooms" >
+								<a href="#" data-toggle="tooltip" title="$1/each after first vegetable">Mushrooms</a></input><br>
+							<input class="veggies" type="checkbox" name="veggies" value="Pineapple" >
+								<a href="#" data-toggle="tooltip" title="$1/each after first vegetable">Pineapple</a></input><br>
+							<input class="veggies" type="checkbox" name="veggies" value="Spinach">
+								<a href="#" data-toggle="tooltip" title="$1/each after first vegetable">Spinach</a></input><br>
+							<input class="veggies" type="checkbox" name="veggies" value="Jalapeno" >
+								<a href="#" data-toggle="tooltip" title="$1/each after first vegetable">Jalapeno</a></input><br>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<br>
+
+<div class="container text-center">
+	<button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal" onclick="Calc()">
+		Place Order</button>
+	<button  class="btn btn-danger btn-lg" onclick="clear()">
+		Clear Order</button>
+</div>
+</form> 
+
+<div id="myModal" class="modal fade" role="dialog">	
+	<div class="modal-dialog">
+		<div class="modal-content">
+			 <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">Thank you for your Order!</h4>
+		     </div>
+		     <div class="modal-body">
+					<div id="order"></div>
+					<div id="total"></di>
+			</div>
+
+		</div>	
+	</div>
+</div>
+</br>
+
+<script src="./js/pizzadrill.js"></script>
+</body>
+</html>
